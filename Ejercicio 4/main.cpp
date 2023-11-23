@@ -2,17 +2,17 @@
 #include <string>
 
 int main() {
-    std::string sentence = "El lenguaje C++ es poderoso.";
-    std::string sub_str = "C++";
+    std::string frase = "Su nota va a ser un 0";
+    std::string sub_str = "0";
 
-    size_t pos = sentence.find(sub_str);
+    size_t pos = frase.find(sub_str);
 
     if(pos != std::string::npos)
-        std::cout << "Subcadena encontrada en la posición: " << pos << std::endl;
+        std::cout << "Se encontro la nota en la posicion numero 20: " << pos << std::endl;
     else
-        std::cout << "Subcadena no encontrada." << std::endl;
+        std::cout << "No se encontro su nota." << std::endl;
 
-    std::string new_sentence = sentence.replace(pos, sub_str.length(), "Python");
+    std::string new_sentence = frase.replace(pos, sub_str.length(), "10");
 
     std::cout << "Cadena resultante: " << new_sentence << std::endl;
 
