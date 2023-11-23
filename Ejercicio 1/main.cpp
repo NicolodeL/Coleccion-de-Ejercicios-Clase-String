@@ -8,6 +8,3 @@ int main() {
         std::cout << frase << std::endl;
         return 0;
     }
-
-    return 0;
-}
