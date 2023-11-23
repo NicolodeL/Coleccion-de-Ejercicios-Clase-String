@@ -10,3 +10,5 @@ add_executable(Ejercicio_2
         "Ejercicio 2/main.cpp")
 add_executable(Ejercicio_3
         "Ejercicio 3/main.cpp")
+add_executable(Ejercicio_4 "Ejercicio 4/main.cpp")
+add_executable(Ejercicio_5 "Ejercicio 5/main.cpp")

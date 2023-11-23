@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercic
 all: CMakeFiles/Ejercicio_1.dir/all
 all: CMakeFiles/Ejercicio_2.dir/all
 all: CMakeFiles/Ejercicio_3.dir/all
+all: CMakeFiles/Ejercicio_4.dir/all
+all: CMakeFiles/Ejercicio_5.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +77,8 @@ preinstall:
 clean: CMakeFiles/Ejercicio_1.dir/clean
 clean: CMakeFiles/Ejercicio_2.dir/clean
 clean: CMakeFiles/Ejercicio_3.dir/clean
+clean: CMakeFiles/Ejercicio_4.dir/clean
+clean: CMakeFiles/Ejercicio_5.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -154,6 +158,58 @@ Ejercicio_3: CMakeFiles/Ejercicio_3.dir/rule
 CMakeFiles/Ejercicio_3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3.dir\build.make CMakeFiles/Ejercicio_3.dir/clean
 .PHONY : CMakeFiles/Ejercicio_3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio_4.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio_4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Ejercicio_4"
+.PHONY : CMakeFiles/Ejercicio_4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio_4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio_4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Ejercicio_4.dir/rule
+
+# Convenience name for target.
+Ejercicio_4: CMakeFiles/Ejercicio_4.dir/rule
+.PHONY : Ejercicio_4
+
+# clean rule for target.
+CMakeFiles/Ejercicio_4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/clean
+.PHONY : CMakeFiles/Ejercicio_4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio_5.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio_5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Ejercicio_5"
+.PHONY : CMakeFiles/Ejercicio_5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio_5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio_5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Ejercicio_5.dir/rule
+
+# Convenience name for target.
+Ejercicio_5: CMakeFiles/Ejercicio_5.dir/rule
+.PHONY : Ejercicio_5
+
+# clean rule for target.
+CMakeFiles/Ejercicio_5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/clean
+.PHONY : CMakeFiles/Ejercicio_5.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

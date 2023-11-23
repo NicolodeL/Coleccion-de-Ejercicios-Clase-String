@@ -154,6 +154,32 @@ Ejercicio_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3.dir\build.make CMakeFiles/Ejercicio_3.dir/build
 .PHONY : Ejercicio_3/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio_4
+
+# Build rule for target.
+Ejercicio_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_4
+.PHONY : Ejercicio_4
+
+# fast build rule for target.
+Ejercicio_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/build
+.PHONY : Ejercicio_4/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_5
+
+# Build rule for target.
+Ejercicio_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_5
+.PHONY : Ejercicio_5
+
+# fast build rule for target.
+Ejercicio_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/build
+.PHONY : Ejercicio_5/fast
+
 Ejercicio_1/main.obj: Ejercicio_1/main.cpp.obj
 .PHONY : Ejercicio_1/main.obj
 
@@ -226,6 +252,54 @@ Ejercicio_3/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3.dir\build.make CMakeFiles/Ejercicio_3.dir/Ejercicio_3/main.cpp.s
 .PHONY : Ejercicio_3/main.cpp.s
 
+Ejercicio_4/main.obj: Ejercicio_4/main.cpp.obj
+.PHONY : Ejercicio_4/main.obj
+
+# target to build an object file
+Ejercicio_4/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/Ejercicio_4/main.cpp.obj
+.PHONY : Ejercicio_4/main.cpp.obj
+
+Ejercicio_4/main.i: Ejercicio_4/main.cpp.i
+.PHONY : Ejercicio_4/main.i
+
+# target to preprocess a source file
+Ejercicio_4/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/Ejercicio_4/main.cpp.i
+.PHONY : Ejercicio_4/main.cpp.i
+
+Ejercicio_4/main.s: Ejercicio_4/main.cpp.s
+.PHONY : Ejercicio_4/main.s
+
+# target to generate assembly for a file
+Ejercicio_4/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4.dir\build.make CMakeFiles/Ejercicio_4.dir/Ejercicio_4/main.cpp.s
+.PHONY : Ejercicio_4/main.cpp.s
+
+Ejercicio_5/main.obj: Ejercicio_5/main.cpp.obj
+.PHONY : Ejercicio_5/main.obj
+
+# target to build an object file
+Ejercicio_5/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/Ejercicio_5/main.cpp.obj
+.PHONY : Ejercicio_5/main.cpp.obj
+
+Ejercicio_5/main.i: Ejercicio_5/main.cpp.i
+.PHONY : Ejercicio_5/main.i
+
+# target to preprocess a source file
+Ejercicio_5/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/Ejercicio_5/main.cpp.i
+.PHONY : Ejercicio_5/main.cpp.i
+
+Ejercicio_5/main.s: Ejercicio_5/main.cpp.s
+.PHONY : Ejercicio_5/main.s
+
+# target to generate assembly for a file
+Ejercicio_5/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5.dir\build.make CMakeFiles/Ejercicio_5.dir/Ejercicio_5/main.cpp.s
+.PHONY : Ejercicio_5/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,6 +311,8 @@ help:
 	@echo ... Ejercicio_1
 	@echo ... Ejercicio_2
 	@echo ... Ejercicio_3
+	@echo ... Ejercicio_4
+	@echo ... Ejercicio_5
 	@echo ... Ejercicio_1/main.obj
 	@echo ... Ejercicio_1/main.i
 	@echo ... Ejercicio_1/main.s
@@ -246,6 +322,12 @@ help:
 	@echo ... Ejercicio_3/main.obj
 	@echo ... Ejercicio_3/main.i
 	@echo ... Ejercicio_3/main.s
+	@echo ... Ejercicio_4/main.obj
+	@echo ... Ejercicio_4/main.i
+	@echo ... Ejercicio_4/main.s
+	@echo ... Ejercicio_5/main.obj
+	@echo ... Ejercicio_5/main.i
+	@echo ... Ejercicio_5/main.s
 .PHONY : help
 
 
