@@ -8,7 +8,7 @@ int main() {
     size_t pos = frase.find(sub_str);
 
     if(pos != std::string::npos)
-        std::cout << "Se encontro la nota en la posicion numero 20: " << pos << std::endl;
+        std::cout << "Se encontro la nota en la posicion numero: " << pos << std::endl;
     else
         std::cout << "No se encontro su nota." << std::endl;
 
