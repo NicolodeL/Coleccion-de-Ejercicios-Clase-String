@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercic
 
 # The main recursive "all" target.
 all: CMakeFiles/Ejercicio_1.dir/all
+all: CMakeFiles/Ejercicio_2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Ejercicio_1.dir/clean
+clean: CMakeFiles/Ejercicio_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -98,6 +100,32 @@ Ejercicio_1: CMakeFiles/Ejercicio_1.dir/rule
 CMakeFiles/Ejercicio_1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1.dir\build.make CMakeFiles/Ejercicio_1.dir/clean
 .PHONY : CMakeFiles/Ejercicio_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio_2.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2.dir\build.make CMakeFiles/Ejercicio_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2.dir\build.make CMakeFiles/Ejercicio_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Ejercicio_2"
+.PHONY : CMakeFiles/Ejercicio_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\OneDrive\Documents\GitHub\Coleccion-de-Ejercicios-Clase-String\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Ejercicio_2.dir/rule
+
+# Convenience name for target.
+Ejercicio_2: CMakeFiles/Ejercicio_2.dir/rule
+.PHONY : Ejercicio_2
+
+# clean rule for target.
+CMakeFiles/Ejercicio_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2.dir\build.make CMakeFiles/Ejercicio_2.dir/clean
+.PHONY : CMakeFiles/Ejercicio_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
